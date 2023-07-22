@@ -4,6 +4,7 @@
 /** includes Libraries **/
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /** Structure for Doubly linked list **/
 /**
@@ -20,5 +21,9 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+/** Functions **/
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
+void insertion_sort_list(listint_t **list);
 
 #endif
