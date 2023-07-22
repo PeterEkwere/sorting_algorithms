@@ -30,6 +30,7 @@ void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void insertion_sort_list(listint_t **list);
+<<<<<<< HEAD
 >>>>>>> 100bd36ecf58044139e13c2d8b45bf87ebfadeb0
 
 /* Sorting algorithms */
@@ -45,5 +46,8 @@ void heap_sort(int *array, size_t size);
 void redix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
+=======
+void bubble_sort(int *array, size_t size);
+>>>>>>> b3569c7f245a46101c2d7f88fd8de381e1ac0fe9
 
 #endif /* SORT_H */
